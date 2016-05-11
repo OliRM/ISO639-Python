@@ -5,12 +5,12 @@ ISO639-1/ISO639-2/ISO-Language Translator
 ```python
 import ISO639
 
-from_1_to_2(code)
-from_1_to_language(code)
-from_2_to_1(code)
-from_2_to_language(code)
-from_language_to_1(language)
-from_language_to_2(language)
+ISO639.from_1_to_2(code)
+ISO639.from_1_to_language(code)
+ISO639.from_2_to_1(code)
+ISO639.from_2_to_language(code)
+ISO639.from_language_to_1(language)
+ISO639.from_language_to_2(language)
 ```
 
 ## Examples:
